@@ -1,0 +1,62 @@
+:root {
+  --color-accent-cyan: #26baa4;
+  --color-accent-blue: #6173ff;
+  --color-primary: #4c545d;
+  --color-secondary: #9fabb2;
+  --color-background: #fff;
+
+  --fs-xl: 3rem;
+  --fs-600: 2.4rem;
+  --fs-500: 2.1rem;
+  --fs-400: 1.8rem;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  margin: 0;
+}
+
+/* Typography */
+html {
+  font-size: 62.5%;
+}
+
+body {
+  font-family: "Bai Jamjuree", Arial, sans-serif;
+  font-size: var(--fs-400);
+  color: var(--color-secondary);
+}
+
+h1,
+h2,
+h3 {
+  font-weight: 600;
+  color: var(--color-primary);
+}
+
+h1,
+h2 {
+  font-size: var(--fs-xl);
+}
+
+h3 {
+  font-size: var(--fs-600);
+}
+
+/* Attribution */
+.attribution {
+  font-size: 11px;
+  text-align: center;
+}
+.attribution a {
+  color: var(--color-accent-blue);
+  font-weight: 600;
+  text-decoration: none;
+}
+
+.attribution a:hover,
+.attribution a:focus {
+  color: var(--color-accent-cyan);
+}
