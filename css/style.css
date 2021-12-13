@@ -1,13 +1,15 @@
 :root {
   --color-accent-cyan: #26baa4;
+  --color-accent-cyan-shadow: #229c87;
   --color-accent-blue: #6173ff;
+  --color-accent-blue-shadow: #4f62d8;
   --color-primary: #4c545d;
   --color-secondary: #9fabb2;
   --color-background: #fff;
 
   --fs-xl: 3rem;
   --fs-600: 2.4rem;
-  --fs-500: 2.1rem;
+  --fs-500: 1.8rem;
   --fs-400: 1.8rem;
 }
 
@@ -43,6 +45,61 @@ h2 {
 
 h3 {
   font-size: var(--fs-600);
+}
+
+/* Button */
+.btn {
+  margin: 2rem; /* to be removed */
+  display: block;
+  text-decoration: none;
+  text-align: center;
+  background-color: var(--color-primary);
+  color: var(--color-background);
+  width: auto;
+  padding: 1em 3em;
+  border-radius: 100px;
+  transition: opacity 0.1s ease-in-out;
+  font-size: var(--fs-500);
+  font-weight: 600;
+}
+
+.btn:hover,
+.btn:focus {
+  opacity: 0.8;
+}
+
+.btn--cyan {
+  position: relative;
+  background-color: var(--color-accent-cyan);
+  box-shadow: inset 0 -2px 1px 1px var(--color-accent-cyan-shadow);
+}
+
+.btn--cyan::after {
+  content: "";
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  border-radius: 100px;
+  box-shadow: 0 5px 15px 0.5px #5fcebda8;
+}
+
+.btn--blue {
+  position: relative;
+  background-color: var(--color-accent-blue);
+  box-shadow: inset 0 -2px 1px 1px var(--color-accent-blue-shadow);
+}
+
+.btn--blue::after {
+  content: "";
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  border-radius: 100px;
+  box-shadow: 0 5px 15px 0.5px #656fb991;
 }
 
 /* Attribution */
