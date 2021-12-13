@@ -8,6 +8,7 @@
   --color-background: #fff;
 
   --fs-xl: 3rem;
+  --fs-700: 2.8rem;
   --fs-600: 2.4rem;
   --fs-500: 1.8rem;
   --fs-400: 1.6rem;
@@ -43,17 +44,22 @@ h3 {
   color: var(--color-primary);
 }
 
-h1,
-h2 {
+h1 {
   font-size: var(--fs-xl);
+}
+
+h2 {
+  font-size: var(--fs-700);
+  margin-bottom: 0.8em;
 }
 
 h3 {
   font-size: var(--fs-600);
+  margin-bottom: 0.4em;
 }
 
 p {
-  line-height: 1.7;
+  line-height: 1.6;
 }
 
 /* Button */
@@ -125,6 +131,21 @@ p {
 
 .hero__text {
   margin-bottom: 3em;
+}
+
+/* Section */
+.section {
+  text-align: center;
+  padding: 4em 0 7em;
+}
+
+.section__img {
+  width: 100%;
+  margin: 6rem 0;
+}
+
+p + h3 {
+  margin-top: 2em;
 }
 
 /* Attribution */
