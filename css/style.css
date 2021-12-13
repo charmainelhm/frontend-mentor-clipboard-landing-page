@@ -123,6 +123,7 @@ p {
   padding: 7rem 0;
   background-image: url(../images/bg-header-mobile.png);
   background-repeat: no-repeat;
+  background-size: cover;
 }
 
 .hero__logo {
