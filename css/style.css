@@ -6,6 +6,7 @@
   --color-primary: #4c545d;
   --color-secondary: #9fabb2;
   --color-background: #fff;
+  --color-background-secondary: #f5f6f8;
 
   --fs-xl: 3rem;
   --fs-700: 2.8rem;
@@ -169,6 +170,49 @@ p + h3 {
   justify-items: center;
   gap: 7rem;
   margin-bottom: 12rem;
+}
+
+/* Footer */
+.footer {
+  text-align: center;
+  font-size: var(--fs-500);
+  background: var(--color-background-secondary);
+}
+
+.footer__logo {
+  width: 55px;
+  margin: 6rem 0;
+}
+
+.footer-list {
+  padding-left: 0;
+}
+
+.footer-list__item {
+  list-style-type: none;
+  padding-bottom: 1.5em;
+}
+
+.footer-list__link {
+  text-decoration: none;
+  color: var(--color-primary);
+}
+
+.footer-list__link:hover {
+  color: var(--color-accent-cyan);
+}
+
+.footer__social-links {
+  margin: 2rem 0 4rem;
+}
+
+.social-link + .social-link {
+  padding-left: 3rem;
+}
+
+.social-link:hover .social-link__icon {
+  filter: invert(53%) sepia(62%) saturate(490%) hue-rotate(122deg)
+    brightness(102%) contrast(89%);
 }
 
 /* Attribution */
