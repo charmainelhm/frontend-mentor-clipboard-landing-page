@@ -65,7 +65,7 @@ p {
 
 /* Button */
 .btn {
-  margin: 2.4rem 0; /* to be removed */
+  margin: 2.4rem auto; /* to be removed */
   display: block;
   text-decoration: none;
   text-align: center;
@@ -77,6 +77,7 @@ p {
   transition: opacity 0.1s ease-in-out;
   font-size: var(--fs-500);
   font-weight: 600;
+  max-width: 380px;
 }
 
 .btn:hover,
@@ -147,7 +148,7 @@ p {
 }
 
 .section__img {
-  width: 100%;
+  max-width: 100%;
   margin: 6rem 0;
 }
 
