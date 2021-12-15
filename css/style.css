@@ -296,4 +296,30 @@ p + h3 {
   .logo-group {
     align-items: center;
   }
+
+  .grid--colms-3 {
+    display: grid;
+    grid-template-columns: 1fr 3fr 1fr;
+    align-items: center;
+    padding: 4rem 0 2rem;
+  }
+
+  .grid--colms-3 img {
+    justify-self: start;
+    align-self: start;
+    margin: 0;
+  }
+
+  .grid--colms-3 .footer-list {
+    display: grid;
+    grid-template: repeat(2, 1fr) / repeat(3, 1fr);
+    grid-auto-flow: column;
+    justify-items: start;
+    justify-content: start;
+    margin-right: 20rem;
+  }
+
+  .grid--colms-3 .footer__social-links {
+    justify-self: end;
+  }
 }
