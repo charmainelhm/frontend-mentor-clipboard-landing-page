@@ -27,7 +27,7 @@ Users should be able to:
 
 ### Screenshot
 
-![Desktop Version](./images/screenshot-final-desktop.png)
+![Desktop Version](./images/Screenshot-final-desktop.png)
 
 ### Links
 
