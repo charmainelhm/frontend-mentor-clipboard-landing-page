@@ -17,6 +17,8 @@
 
 @media screen and (min-width: 900px) {
   :root {
+    --fs-xl: 4.6rem;
+    --fs-700: 3.8rem;
     --fs-500: 1.6rem;
   }
 }
