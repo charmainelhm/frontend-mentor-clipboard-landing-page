@@ -275,6 +275,24 @@ p + h3 {
     align-items: flex-start;
   }
 
+  .grid--colms-2 {
+    display: grid;
+    grid-template-columns: 50% 50%;
+    grid-gap: 6em;
+    align-items: center;
+  }
+
+  .grid--colms-2__img {
+    justify-self: end;
+    width: auto;
+    max-width: 800px;
+  }
+
+  .grid--colms-2__content {
+    text-align: start;
+    max-width: 340px;
+  }
+
   .logo-group {
     align-items: center;
   }
